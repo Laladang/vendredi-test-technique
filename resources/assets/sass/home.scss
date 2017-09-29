@@ -32,6 +32,7 @@ $navbar-inverse-border: 0;
   .hero-text {
     position: relative;
     z-index: 10; // Only to have it always on top of the slider
+    margin-top: 5em;
   }
 
   @keyframes slide-in {
@@ -95,11 +96,14 @@ $navbar-inverse-border: 0;
 
 .hero-title {
   font-size: 60px;
+  text-align: center;
 }
 
 .hero-subtitle {
   margin-top: 30px;
   font-size: 24px;
+  text-align: center;
+  font-weight: lighter;
 }
 
 .hero-buttons {
@@ -147,7 +151,8 @@ $navbar-inverse-border: 0;
 }
 
 #home-concept {
-  background-color: $color-serenade;
+  color: $color-white;
+  background-color: $color-green;
 
   padding-top: 20px;
   padding-bottom: 40px;
@@ -157,7 +162,7 @@ $navbar-inverse-border: 0;
 }
 
 .home-concept-subtitle {
-  margin-top: 20px;
+  margin: 20px 0;
   font-weight: 300;
   font-size: 24px;
 }
@@ -298,12 +303,12 @@ $navbar-inverse-border: 0;
 }
 
 #home-semaine-title {
-  width: 50%;
+  font-weight: lighter;
   font-size: 40px;
 }
 
 .home-semaine-subtitle {
-  width: 50%;
+  
   font-weight: 300;
   font-size: 24px;
   margin-top: 30px;
@@ -409,8 +414,8 @@ $home-vision-padding-bottom: 60px;
 //////////////////////////////////////////////////////////////////////////////
 
 #home-newsletter {
-  background-color: $color-gun-powder;
-  color: $color-white;
+  text-align: center;
+  background-color: $color-serenade;
   padding: 30px 60px;
 }
 

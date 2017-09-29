@@ -1,7 +1,7 @@
 
 <div class="col-sm-12" id="home-concept">
-  <h2>Le concept Vendredi</h2>
-  <p class="home-concept-subtitle">Partage ton temps entre une expérience en entreprise et une mission en association.</p>
+  <h2>Le stage partagé</h2>
+  <p class="home-concept-subtitle">Partage ton temps entre une stage en entreprise et une mission en association.</p>
   <div class="home-concept-illustration">
     <div class="home-concept-entreprise">
       <p class="popover-entreprise">en entreprise</p>

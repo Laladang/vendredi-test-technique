@@ -20,15 +20,14 @@
             <div class="row">
                 <div class="col-sm-offset-1 col-sm-10">
                     <h1 class="hero-title">
-                        Un stage unique <br/>
-                        pour ton avenir
+                        Des stages uniques et engagés
 
                     </h1>
                     <p class="hero-subtitle">
-                        Découvre toutes nos offres de stages <br/>
-                        partagés entre entreprise et association</p>
+                        Trouve le stage en entreprise de tes rêves.<br/>
+                        Et consacre 1 jour par semaine à une mission en association.</p>
                     <p class="hero-buttons">
-                        <a href="#offres-anchor" class="btn btn-sm btn-default voir-les-offres">Voir les offres</a>
+                        <a href="#offres-anchor" class="btn btn-sm btn-default voir-les-offres">Trouver son stage partagé</a>
                     </p>
                     <p class="hero-slider">
                         <span id="selector-lundi" class="full-circle"></span>
@@ -114,56 +113,72 @@
         <div class="col-sm-12 col-md-7 block-vendredi">
 
             <div class="col-sm-12" id="home-semaine">
-                <h1 id="home-semaine-title">Ils ont vécu un Vendredi</h1>
-                <img id="morgane" alt="Photo jeune femme souriante"
-                     src="{{  elixir('images/sei-decoupage.png') }}">
-                <p class="home-semaine-subtitle">4 stagiaires t'expliquent<br/>pourquoi te lancer !</p>
+                <h1 id="home-semaine-title">Des offres en entreprise exclusives !</h1>
+                <p class="home-semaine-subtitle">Plus de 30 entreprises pionnières te proposent des stages uniques et engagés. Quelque soit ta formation !</p>
                 <button onclick="$('#semaineVecu').modal('show');" class="btn btn-sm btn-default home-semaine-button">
                     Découvrir
                 </button>
             </div>
         </div>
 
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 block-vendredi">
+
+        <div class="col-sm-12 col-md-7" id="home-association">
+          <h1 id="home-semaine-title">Accompagne l'association de ton choix !</h1>
+          <p class="home-semaine-subtitle">Plus de 500 associations et start-up sociales ont des missions opérationnelles ou stratégiques à te proposer. Avec elles, tu développes tes talents et rends la société plus belle chaque semaine !</p>
+          <button onclick="$('#semaineVecu').modal('show');" class="btn btn-sm btn-default home-semaine-button">
+            Trouver son stage partagé
+          </button>
+        </div>
+
+        <div class="col-sm-12 col-md-5" id="home-associaiton-image">
+          
+        </div>
+        
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 block-vendredi">
+      <h1 id="home-semaine-title">Comment ça marche ?</h1>
+
+      <div class="col-md-4">
+        <h1 id="home-semaine-title">Et un !</h1>
+        <p class="home-semaine-subtitle">Tu nous indiques tes <strong>préférences</strong> de stage. Tu reçois <strong>par mail</strong> les offres qui te correspondent.</p>
+      </div>
+
+      <div class="col-md-4">
+        <h1 id="home-semaine-title">Et deux !</h1>
+        <p class="home-semaine-subtitle">Tu <strong>candidates</strong> alors à l'offre en <strong>entreprise</strong> qui te fait rêver !</p>
+      </div>
+
+      <div class="col-md-4">
+        <h1 id="home-semaine-title">Et trois-zéro* !</h1>
+        <p class="home-semaine-subtitle">Une fois <strong>recruté(e)</strong>, tu <strong>choisis</strong> la <strong>mission</strong> pour compléter ton stage !</p>
+      </div>
+
+      <p class="home-semaine-bravo">*Bravo champion(ne) ! C'est parti pour un stage engagé !</strong>
+
+      </div>
+    </div>
+
         <div class="col-sm-12 block-vendredi">
             <div id="home-newsletter" class="col-sm-12">
                 <div class="row ">
                     <div class="col-md-5 col-sm-12">
-                        <h2>S’inscrire à notre Newsletter</h2>
-                        <p class="home-newsletter-subtitle">Pour ne rater aucune offre, et recevoir des nouvelles qui
-                            rendent la société plus belle.</p>
+                        <h2>Tu veux changer le monde ? <br> Ça commence par un Vendredi.</h2>
                     </div>
 
-
-                    <!-- Begin MailChimp Signup Form -->
-                    <div id="mc_embed_signup" class="col-md-7 col-sm-12">
-                        <form action="//vendredi.us10.list-manage.com/subscribe/post?u=1f8f5993c0d281efccc14ebdd&amp;id=aff4f95ac5"
-                              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                              class="form-inline form-newsletter validate" target="_blank" novalidate>
-
-                            <input type="text" value="" name="MMERGE5"
-                                   class="form-control input-sm home-newsletter-prenom" placeholder="Prénom"
-                                   id="mce-MMERGE5">
-                            <input type="text" value="" name="MMERGE4" class="form-control input-sm home-newsletter-nom"
-                                   placeholder="Nom" id="mce-MMERGE4">
-                            <input type="email" value="" name="EMAIL"
-                                   class="required email form-control input-sm home-newsletter-email"
-                                   placeholder="Email" id="mce-EMAIL">
-
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                                                                                      name="b_1f8f5993c0d281efccc14ebdd_aff4f95ac5"
-                                                                                                      tabindex="-1"
-                                                                                                      value=""></div>
+                    <button onclick="$('#semaineVecu').modal('show');" class="btn btn-sm btn-default home-semaine-button">
+                    Démarrer l'aventure
+                    </button>
 
 
-                            <input type="submit" id="mc-embedded-subscribe"
-                                   class="btn btn-sm btn-warning home-newsletter-button" value="S'inscrire">
-
-
-                        </form>
-                    </div>
-
-                    <!--End mc_embed_signup-->
+                   
 
                 </div>
             </div>
